@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Controller">
+   <center>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="65.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="65.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="65.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="65.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="65.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="65.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="line00" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line01" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line02" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line03" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line04" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line10" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line11" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line12" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line13" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line14" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line20" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line21" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line22" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line23" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line24" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line30" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line31" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line32" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line33" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line34" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line40" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line41" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line42" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line43" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line44" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line50" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line51" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line52" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line53" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="line54" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #7e7e7e; -fx-border-width: 1.5; -fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="gameLabel" layoutX="153.0" layoutY="1.0" text="Boogle" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="64.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.9108107901908256" endY="0.5783783944877419" startX="0.1918918928584537" startY="0.07567567567567568">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color green="1.0" blue="0.24492745101451874" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.4425087108013937">
+                           <color>
+                              <Color green="0.7768116593360901" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.616847813129425" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="statsButton" layoutX="423.0" layoutY="25.0" mnemonicParsing="false" onAction="#showStats" style="-fx-background-color: #ffffff; -fx-border-color: #7e7e7e; -fx-border-width: 1.5;" stylesheets="@DesignCSS.css" text="Stats">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="resetButton" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#resetBoard" style="-fx-background-color: #ffffff; -fx-border-color: #7e7e7e; -fx-border-width: 1.5;" stylesheets="@DesignCSS.css" text="Reset">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="45.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="qKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="Q" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="wKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="W" textAlignment="CENTER" textOverrun="CLIP" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="eKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="E" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="rKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="R" textAlignment="CENTER" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="T" textAlignment="CENTER" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="yKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="Y" textAlignment="CENTER" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="uKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="U" textAlignment="CENTER" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="iKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="I" textAlignment="CENTER" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="oKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="O" textAlignment="CENTER" GridPane.columnIndex="8">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="pKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="P" textAlignment="CENTER" GridPane.columnIndex="9">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="45.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="hKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="H" textAlignment="CENTER" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="aKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="A" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="sKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="S" textAlignment="CENTER" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="dKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="D" textAlignment="CENTER" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="fKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="F" textAlignment="CENTER" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="G" textAlignment="CENTER" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="jKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="J" textAlignment="CENTER" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="kKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="K" textAlignment="CENTER" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="lKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="L" textAlignment="CENTER" GridPane.columnIndex="8">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="45.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="45.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="enterKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#enterKey" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #76ff54;" stylesheets="@DesignCSS.css" text="Enter" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="zKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="Z" textAlignment="CENTER" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="X" textAlignment="CENTER" GridPane.columnIndex="2" fx:id="xKey">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="C" textAlignment="CENTER" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="vKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="V" textAlignment="CENTER" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="bKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="B" textAlignment="CENTER" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="nKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="N" textAlignment="CENTER" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="mKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#keyboardLetterPressed" prefHeight="41.0" prefWidth="41.0" style="-fx-background-color: #ffffff;" stylesheets="@DesignCSS.css" text="M" textAlignment="CENTER" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="deleteKey" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deleteKey" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: #ff5454;" stylesheets="@DesignCSS.css" text="Del" textAlignment="CENTER" GridPane.columnIndex="8">
+                     <font>
+                        <Font name="Berlin Sans FB" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
